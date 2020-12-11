@@ -27,7 +27,9 @@ function addUser(){
             localStorage.setItem('user', JSON.stringify(userData));
             addUser();
         });
+        return li;
     });
+ 
 }
 
 function showDays(){
@@ -86,7 +88,6 @@ function askAboutUser(){
 }
 
 register.addEventListener('click', askAboutUser);
-
 addUser();
 
 

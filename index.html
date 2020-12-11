@@ -8,11 +8,28 @@
 </head>
 <body>
     <button type="text" class="register">Зарегестрироваться</button>
-    <button type="text" class="logIn">Авторизоваться</button>
+    <!-- <button type="text" class="logIn">Авторизоваться</button> -->
 
     <ul class="list">
     </ul>
 
     <script src="script.js"></script>
+    <!-- <script>
+        
+function authorization(){
+    let askUserLogin = prompt('Ваш логин');
+    let askUserPassword = prompt('Ваш пароль');
+    for(let {firsName, lastName, login, password, regDate} of userData){
+        if(login !== askUserLogin){
+            alert('Такой пользователь не найден')
+        }
+        else{
+            console.log('найден');
+            addUser();
+        }
+    }
+
+}
+    </script> -->
 </body>
 </html>
